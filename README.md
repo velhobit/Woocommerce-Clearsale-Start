@@ -2,13 +2,14 @@
 
 [![N|Solid](https://velhobit.com.br/wp-content/themes/vale/images/logo-velho-bit.jpg)](https://velhobit.com.br)
 
-##This Plugin is compatible Clearsale Brazil Start service only
+**This Plugin is compatible Clearsale Brazil Start service only**
 
-#Requerimentos
+## Requerimentos
   - Woocommerce 3.X
   - Plugin WooCommerce Extra Checkout Fields for Brazil(https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) ou similar
 
-##COMO FUNCIONA
+License
+----
 O plugin segue as informações disponíveis no
 manual de integração do Clearsale Start (http://www.clearsale.com.br/start/manual/Start_Manual_Integracao.pdf)
 
