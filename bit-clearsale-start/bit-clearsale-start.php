@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: ClearSale Start
- * Plugin URI: https://bitcolor.com.br/bit-clearsale-start
+ * Plugin URI: https://velhobit.com.br/projetos/clearsale-start-plugin-woocommerce-gratuito.html
  * Description: Integração do Clearsale Start para Woocommerce.
  * Version: 1.0
  * Author: Rodrigo Portillo

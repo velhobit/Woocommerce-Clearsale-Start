@@ -3,6 +3,9 @@
 [![N|Solid](https://velhobit.com.br/wp-content/themes/vale/images/logo-velho-bit.jpg)](https://velhobit.com.br)
 
 **This Plugin is compatible Clearsale Brazil Start service only**
+**Atenção: Este plugin não tem nenhuma relação comercial com a Clearsale. Foi criado unicamente para auxiliar pessoas que desejam facilitar a integração com sua loja no Woocommerce.**
+
+Para mais detalhes e informações, acesse: https://velhobit.com.br/projetos/clearsale-start-plugin-woocommerce-gratuito.html
 
 ## Requerimentos
   - Woocommerce 3.X
