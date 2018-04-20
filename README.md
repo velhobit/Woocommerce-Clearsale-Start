@@ -8,7 +8,7 @@
   - Woocommerce 3.X
   - Plugin WooCommerce Extra Checkout Fields for Brazil(https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) ou similar
 
-License
+Como Funciona
 ----
 O plugin segue as informações disponíveis no
 manual de integração do Clearsale Start (http://www.clearsale.com.br/start/manual/Start_Manual_Integracao.pdf)
