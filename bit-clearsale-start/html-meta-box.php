@@ -112,9 +112,24 @@ if($phone1 == ""){
 		endif;
 		?>
 		<div class="clearsale_cartao_fields">
-			<input name="Tipo_Cartao" type="hidden" value="<?php echo $order_bandeira; ?>">
-			<input name="Cartao_Bin" id="Cartao_Bin" type="hidden" value="<?php echo $card_bin; ?>">
-			<input name="Cartao_Fim" id="Cartao_Fim" type="hidden" value="<?php echo $card_fim; ?>">
+			<?php if(empty($order_bandeira)):?>
+				<select name="Tipo_Cartao">
+					<option value="visa">Visa</option>
+					<option value="mastercard">Mastercard</option>
+					<option value="diners">Diners</option>
+					<option value="elo">ELO</option>
+					<option value="amex">AMEX</option>
+					<option value="discover">Discover</option>
+					<option value="aura">Aura</option>
+					<option value="jcb">JCB</option>
+					<option value="hipercard">Hipercard</option>
+				</select>
+			<?php else:?>
+				<input name="Tipo_Cartao" type="hidden" value="<?php echo $order_bandeira; ?>">
+			<?php endif;?>
+			
+			<input name="Cartao_Bin" id="Cartao_Bin" type="text" value="<?php echo $card_bin; ?>" style="display:none">
+			<input name="Cartao_Fim" id="Cartao_Fim" type="text" value="<?php echo $card_fim; ?>" style="display:none">
 			<label><b>Nº Mascarado do Cartão</b> (se tiver):</label>
 			<input name="Cartao_Numero_Mascarado" id="Cartao_Numero_Mascarado" type="text" value="<?php echo $order_credit_card_masked; ?>" placeholder="Exemplo: 555555****4444">
 		</div>
@@ -228,8 +243,10 @@ if($phone1 == ""){
 	jQuery("#TipoPagamento").change(function(){
 		if(jQuery("#TipoPagamento").val() == 1 || jQuery("#TipoPagamento").val() == 3){
 			jQuery(".clearsale_cartao_fields").addClass("show");
+			jQuery(".clearsale_cartao_fields").attr("type","text");
 		}else{
 			jQuery(".clearsale_cartao_fields").removeClass("show");
+			jQuery(".clearsale_cartao_fields").attr("type","hidden");
 		}
 	});
 	

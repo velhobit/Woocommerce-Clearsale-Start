@@ -21,7 +21,7 @@ if (!class_exists('ClearsaleStart')) :
 		}
 		
 		function register_menu_page() {
-            add_menu_page('ClearSale', 'ClearSale Start', 'manage_options', 'bit-clearsale-start', 'get_options', plugins_url('bit-clearsale-start/assets/images/clearsale_wp.png'), 69.9);
+            add_menu_page('ClearSale', 'ClearSale Start', 'manage_options', 'bit-clearsale-start', 'get_option', plugins_url('bit-clearsale-start/assets/images/clearsale_wp.png'), 69.9);
         }
 		/**
 		 * Add options page
