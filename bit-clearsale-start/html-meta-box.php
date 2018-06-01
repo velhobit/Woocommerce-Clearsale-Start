@@ -114,15 +114,14 @@ if($phone1 == ""){
 		<div class="clearsale_cartao_fields">
 			<?php if(empty($order_bandeira)):?>
 				<select name="Tipo_Cartao">
-					<option value="visa">Visa</option>
-					<option value="mastercard">Mastercard</option>
-					<option value="diners">Diners</option>
-					<option value="elo">ELO</option>
-					<option value="amex">AMEX</option>
-					<option value="discover">Discover</option>
-					<option value="aura">Aura</option>
-					<option value="jcb">JCB</option>
-					<option value="hipercard">Hipercard</option>
+					<option value="3">Visa</option>
+					<option value="2">Mastercard</option>
+					<option value="1">Diners</option>
+					<option value="5">AMEX</option>
+					<option value="7">Aura</option>
+					<option value="8">Carrefour</option>
+					<option value="6">Hipercard</option>
+					<option value="4">Outro</option>
 				</select>
 			<?php else:?>
 				<input name="Tipo_Cartao" type="hidden" value="<?php echo $order_bandeira; ?>">
