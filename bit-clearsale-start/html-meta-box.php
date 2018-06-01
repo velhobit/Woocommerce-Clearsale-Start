@@ -107,7 +107,7 @@ if($phone1 == ""){
 		<?php
 		if(checkPaymentMethod($order->payment_method_title) == "14"):
 		?>
-		<div style="color:orangered;">Não foi possível detectar a forma de pagmento</div>
+		<small style="color:orangered;">Forma de pagamento não identificada.</br>Por favor, selecione manualmente.</small>
 		<?php
 		endif;
 		?>
