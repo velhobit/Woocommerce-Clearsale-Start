@@ -224,7 +224,7 @@ if($phone1 == ""){
 		<input name="Item_ID_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_product_id();?>" contenteditable="false">
 		<input name="Item_Nome_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_name();?>" contenteditable="false">
 		<input name="Item_Qtd_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_quantity();?>" contenteditable="false">
-		<input name="Item_Valor_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_total();?>" contenteditable="false">
+		<input name="Item_Valor_<?php echo $n_item;?>" type="text" value="<?php echo get_post_meta($item->get_product_id() , '_sale_price', true)?>" contenteditable="false">
 		<input name="Item_Categoria_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_type();?>" contenteditable="false">
 	</div>
 	<?php
