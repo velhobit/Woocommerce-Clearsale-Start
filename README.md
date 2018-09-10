@@ -34,7 +34,7 @@ manual de integração do Clearsale Start (http://www.clearsale.com.br/start/man
 Read a little bit about me on my Linkedin:
 https://www.linkedin.com/in/rodrigoportillo/
 MyPortfolio:
-https://portillodesign.myportfolio.com/
+https://portillo.myportfolio.com/
 or contact me: rodrigo@portillodesign.com.br
 
 License
