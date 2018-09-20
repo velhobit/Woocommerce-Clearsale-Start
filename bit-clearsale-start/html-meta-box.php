@@ -219,12 +219,19 @@ if($phone1 == ""){
 	//Listar items
 	$n_item = 1;
 	foreach($order->get_items() as $item):
+	$price = 0;
+	if(!empty(get_post_meta($item->get_product_id() , '_sale_price', true))){
+		$price = get_post_meta($item->get_product_id() , '_sale_price', true);
+	}else{
+		$price = get_post_meta($item->get_product_id() , '_regular_price', true);	
+	}
 	?>
+	
 	<div class="clearsale_field">
 		<input name="Item_ID_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_product_id();?>" contenteditable="false">
 		<input name="Item_Nome_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_name();?>" contenteditable="false">
 		<input name="Item_Qtd_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_quantity();?>" contenteditable="false">
-		<input name="Item_Valor_<?php echo $n_item;?>" type="text" value="<?php echo get_post_meta($item->get_product_id() , '_sale_price', true)?>" contenteditable="false">
+			<input name="Item_Valor_<?php echo $n_item;?>" type="text" value="<?php echo $price; ?>" contenteditable="false">
 		<input name="Item_Categoria_<?php echo $n_item;?>" type="text" value="<?php echo $item->get_type();?>" contenteditable="false">
 	</div>
 	<?php
