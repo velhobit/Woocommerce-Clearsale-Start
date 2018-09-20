@@ -1,4 +1,4 @@
-﻿=== Clearsale Start V 1===
+﻿=== Clearsale Start ===
 Contributors: velhobit
 Donate link: https://velhobit.com.br/projetos/clearsale-start-plugin-woocommerce-gratuito.html
 Tags: woocommerce, clearsale, start, antifraude  
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 Integration between the Clearsale Start Brazil and WooCommerce 
 
-*Atenção, este plugin é para a V1*
+*Atenção, este plugin foi feito seguindo o manual da Versão 2.1 do manual http://www.clearsale.com.br/start/manual/Start_Manual_Integracao.pdf*
 
 == Description == 
 Este plugin não tem nenhuma relação comercial com a Clearsale. Foi criado unicamente para auxiliar pessoas que desejam facilitar a integração com sua loja no Woocommerce.
